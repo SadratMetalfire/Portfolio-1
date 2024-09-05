@@ -1,0 +1,12 @@
+[12:01:30] <strong>Record</strong> #1
+[12:01:30] post #485 Successfully Imported
+[12:01:30] <strong>Record</strong> #2
+[12:01:30] post #486 Successfully Imported
+[12:01:30] <strong>Record</strong> #3
+[12:01:30] post #487 Successfully Imported
+[12:02:52] <strong>Record</strong> #1
+[12:02:52] post #488 Successfully Imported
+[12:02:52] <strong>Record</strong> #2
+[12:02:52] post #489 Successfully Imported
+[12:02:52] <strong>Record</strong> #3
+[12:02:52] post #490 Successfully Imported

@@ -1,0 +1,144 @@
+.Wrapper{
+    &.NowyWpis{
+        max-width: 1280px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 85px;
+        #NewPostForm{
+            form{
+                h5{
+                    font-size: 38px;
+                    font-weight: bold;
+                    color: $BlackColor;
+                    margin: 0px;
+                    margin-bottom: 15px;
+                    span{
+                        #term_id{
+                            font-size: 38px;
+                            font-weight: bold;
+                            color: $MainColor;
+                            border: none;
+                            background-color: transparent;
+                            outline: none;
+                            -moz-appearance: none;
+                            -webkit-appearance: none;
+                            appearance: none;
+                            padding-left: 55px;
+                            option{
+                                font-size: 18px;
+                                padding: 0px;
+                            }
+                        }
+                        &::before{
+                            content: '';
+                            background-color: $MainColor;
+                            background-image: url("//e-pzn.pl/wp-content/themes/twentytwenty/assets/images/icons/IconArrowDown.svg");
+                            background-size: 15px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            border-radius: 100%;
+                            width: 35px;
+                            height: 35px;
+                            position: absolute;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                            z-index: -1;
+                        }
+                    }
+                }
+                .BackButton{
+                    float: right;
+                    background-color: $MainColor;
+                    border-radius: 4px;
+                    margin-top: -65px;
+                    width: 168px;
+                    height: 50px;
+                    text-transform: none;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 0px;
+                    outline: 0;
+                }
+                #NewPostTitle{
+                    background-color: white;
+                    padding: 35px 40px;
+                    border: none;
+                    font-size: 14px;
+                    color: $GreyColor;
+                    border-radius: 4px;
+                    margin-bottom: 15px;
+                    &:focus{
+                        outline: none;
+                    }
+                    &::-webkit-input-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                    &::-moz-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                    &:-ms-input-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                    &:-moz-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                }
+                #NewPostContent{
+                    background-color: white;
+                    padding: 35px 40px;
+                    border: none;
+                    font-size: 14px;
+                    color: $GreyColor;
+                    border-radius: 4px;
+                    height: 215px;
+                    &:focus{
+                        outline: none;
+                    }
+                    &::-webkit-input-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                    &::-moz-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                    &:-ms-input-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                    &:-moz-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                }
+                input[type="submit"]{
+                    float: right;
+                    background-color: $MainColor;
+                    margin-top: 15px;
+                    font-weight: bold;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    border-radius: 4px;
+                    width: 170px;
+                    height: 50px;
+                    line-height: 0px;
+                    color: white;
+                }
+            }
+        }
+    }
+}

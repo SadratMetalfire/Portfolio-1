@@ -1,0 +1,56 @@
+* {
+  font-family: "Poppins";
+}
+
+a {
+  color: #5EBA7D;
+}
+
+input[type="submit"] {
+  width: 135px;
+  padding: 0.7em 1.44em;
+  background-color: #5EBA7D;
+  color: white;
+  text-transform: capitalize;
+  margin-top: 35px;
+}
+
+.header-inner {
+  display: none;
+}
+
+.Zielone {
+  color: #5EBA7D;
+}
+
+a {
+  color: #5EBA7D;
+}
+
+h1 .heading-size-1 {
+  font-size: 6rem;
+}
+
+.entry-header-inner {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.powered-by-wordpress {
+  display: none;
+}
+
+.to-the-top .to-the-top-long .arrow {
+  transition: 0.5s;
+  position: relative;
+  top: 0px;
+}
+
+.to-the-top:hover {
+  text-decoration: none !important;
+}
+
+.to-the-top:hover .to-the-top-long .arrow {
+  top: -10px;
+  color: #5EBA7D;
+}

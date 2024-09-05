@@ -1,0 +1,104 @@
+.Wrapper{
+    &.Zgloszenia{
+        max-width: 1280px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 90px;
+        .AllZgloszenia{
+            margin-bottom: 60px;
+            .TopContainer{
+                width: 100%;
+                margin-bottom: 15px;
+                height: 50px;
+                .TypeName{
+                    display: inline;
+                    font-size: 38px;
+                    font-weight: bold;
+                    color: $BlackColor;
+                }
+                .ButtonsContainer{
+                    float: right;
+                    height: 50px;
+                    button{
+                        background-color: $MainColor;
+                        border-radius: 4px;
+                        width: 180px;
+                        height: 50px;
+                        text-transform: none;
+                        text-align: center;
+                        color: white;
+                        font-size: 16px;
+                        font-weight: bold;
+                        line-height: 0px;
+                        float: left;
+                        outline: 0;
+                        &:nth-of-type(2){
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+            .ZgloszenieSingle{
+                background-color: white;
+                margin-bottom: 15px;
+                border-radius: 4px;
+                a{
+                    height: 90px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-decoration: none;
+                    color: $GreyColor;
+                    .ZgloszenieIconContainer{
+                        width: 125px;
+                        height: 90px;
+                        padding: 20px 30px;
+                        img{
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                    .ZgloszenieContentContainer{
+                        width: 735px;
+                        height: 90px;
+                        padding: 30px 0px;
+                        .ZgloszenieTitle{
+                            text-decoration: none;
+                            font-weight: bold;
+                            color: $BlackColor;
+                            margin-bottom: 0px;
+                        }
+                    }
+                    .ZgloszenieStatusContainer{
+                        width: 200px;
+                        height: 90px;
+                        padding: 26px 0px;
+                        p{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin: 0px;
+                            text-transform: uppercase;
+                            border: 1px solid;
+                            text-align: center;
+                            height: 38px;
+                            line-height: 38px;
+                            width: 135px;
+                        }
+                    }
+                    .ZgloszenieInfo{
+                        width: 185px;
+                        height: 90px;
+                        padding: 22px 0px;
+                        p{
+                            font-size: 16px;
+                            margin: 0px;
+                            span{
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

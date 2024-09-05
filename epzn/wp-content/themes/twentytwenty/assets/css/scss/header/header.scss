@@ -1,0 +1,70 @@
+header{
+    height: 92px;
+    .HeaderInner{
+        height: 92px;
+        max-width: 1280px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        padding: 27px 0px 27px 0px;
+        line-height: 43px;
+        .HeaderImage{
+            width: 30%;
+            float: left;
+            position: relative;
+            top: 4px;
+            &.Centered{
+                width: 100%;
+                float: unset;
+                img{
+                    margin: auto;
+                }
+            }
+        }
+        .HeaderMenu{
+            width: 67%;
+            float: right;
+            .menu-mainmenu-container{
+                float: left;
+                ul{
+                    margin: 0px;
+                    li{
+                        display: inline;
+                        a{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: $BlackColor;
+                            text-decoration: none;
+                        }
+                        &:hover{
+                            padding-bottom: 27px;
+                            border-bottom: 4px solid $MainColor;
+                        }
+                    }
+                    .current-menu-item{
+                        padding-bottom: 27px;
+                        border-bottom: 4px solid $MainColor;
+                    }
+                    .menu-item-1237, .menu-item-1238, .menu-item-1239{
+                        a{
+                            color: #D8D8D8;
+                        }
+                        &:hover{
+                            border-bottom: none;
+                            a{
+                                cursor: default;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .LogoutButton{
+            width: 35px;
+            height: 35px;
+            float: right;
+            margin-top: 4px;
+            outline: 0;
+        }
+    }
+}

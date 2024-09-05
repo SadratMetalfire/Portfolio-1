@@ -1,0 +1,71 @@
+.Wrapper{
+    &.Rozliczenia{
+        max-width:1280px;
+        width:100%;
+        display: block;
+        margin: auto;
+        margin-top: 90px;
+        .Panel{
+            background-color: white;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            text-decoration: none;
+            color: $GreyColor;
+            padding: 30px 40px;
+            .SelectYearContainer{
+                width:100%;
+                p{
+                    display: inline;
+                    margin: 0px;
+                }
+            }
+            .SelectMonthContainer{
+                width:100%;
+                p{
+                    display: inline;
+                    margin: 0px;
+                }
+            }
+            .SelectLocalContainer{
+                width:100%;
+                p{
+                    display: inline;
+                    margin: 0px;
+                }
+            }
+            .AdressContainer{
+                width:100%;
+                p{
+                    margin: 0px;
+                }
+            }
+            .NameContainer{
+                width:100%;
+                p{
+                    margin: 0px;
+                }
+            }
+            .PhoneContainer{
+                width:100%;
+                p{
+                    margin: 0px;
+                }
+            }
+            .EmailContainer{
+                width:100%;
+                p{
+                    margin: 0px;
+                }
+            }
+            .LoginContainer{
+                width:100%;
+                p{
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}

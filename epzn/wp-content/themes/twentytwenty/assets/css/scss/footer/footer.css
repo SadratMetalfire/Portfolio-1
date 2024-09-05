@@ -1,0 +1,26 @@
+footer {
+  background-color: transparent !important;
+}
+
+footer .FooterInner {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+footer .FooterInner .FooterLeft {
+  width: 50%;
+  text-align: left;
+  font-size: 14px;
+}
+
+footer .FooterInner .FooterRight {
+  width: 50%;
+  text-align: right;
+}
+
+footer .FooterInner .FooterRight p {
+  display: inline;
+}

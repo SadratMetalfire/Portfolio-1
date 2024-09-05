@@ -1,0 +1,87 @@
+.Wrapper{
+    &.HomePage{
+        max-width:1280px;
+        width:100%;
+        display: block;
+        margin: auto;
+        margin-top: 90px;
+        .Columns3Wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            .ColumnOuter{
+                width: 33.333%;
+                .ColumnInner{
+                    text-align: center;
+                    .DaneAdresowe,.DaneKontaktowe{
+                        font-size: 16px;
+                        color: $GreyColor;
+                        padding: 40px 0px;
+                        .HeaderIcon{
+                            width:60px;
+                            height:60px;
+                            display: block;
+                            margin: auto;
+                            margin-bottom: 20px;
+                        }
+                        .DaneHeader{
+                            font-size: 28px;
+                            color: $BlackColor;
+                            margin-top: 0px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            margin-bottom: 5px;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: $GreyColor;
+                        }
+                    }
+                    .LoginWrapper{
+                        width: 100%;
+                        height: 100%;
+                        background-color: white;
+                        padding: 40px;
+                        border-radius: 4px;
+                        h4{
+                            font-weight: bold;
+                            color: $BlackColor;
+                            font-size: 20px;
+                            margin-top: 0px;
+                        }
+                        .LogoutButton{
+                            display: block;
+                            text-align: center;
+                            outline: 0;
+                        }
+                        .LoginForm{
+                            text-align: center;
+                            input{
+                                max-width: 320px;
+                                width: 100%;
+                                margin: auto;
+                                border-radius: 4px;
+                                border: none;
+                                background-color: $BackgroundColor;
+                                margin-bottom: 15px;
+                                color: $GreyColor;
+                                font-family: "Poppins";
+                                &::placeholder{
+                                    color: #A3A6B0;
+                                }
+                                &:focus{
+                                    outline: none;
+                                }
+                            }
+                            input[type="submit"]{
+                                background-color: $MainColor;
+                                color: white;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

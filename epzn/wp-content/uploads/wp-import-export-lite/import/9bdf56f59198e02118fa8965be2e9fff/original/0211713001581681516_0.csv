@@ -1,0 +1,6 @@
+Login,"Typ konta",Hasło,"Lista mieszkań"
+<*>@<nazwa_wspolnoty>.<*>,Administrator/Moderator/Nadzorca/Mieszkaniec,"Hasło(mogę szyfrować przy wprowadzaniu)","Zostanie podpięta w późniejszych etapach, na tę chwilę
+poproszę o propozycje struktury np(M.0.23-M.0.24)
+tj. <Oznaczenie mieszkania>.<Pietro>.<Numer mieszkania>"
+test@wspolnota1.pl,Mieszkaniec,test1,
+test@wspolnota2.pl,Mieszkaniec,test2,

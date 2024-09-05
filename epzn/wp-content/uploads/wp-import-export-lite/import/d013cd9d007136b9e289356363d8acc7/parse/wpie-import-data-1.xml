@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpiedata>
+  <item>
+    <login><![CDATA[&lt;*&gt;@&lt;nazwa_wspolnoty&gt;.&lt;*&gt;]]></login>
+    <typkonta><![CDATA[Administrator/Moderator/Nadzorca/Mieszkaniec]]></typkonta>
+    <haso><![CDATA[Hasło(mogę szyfrować przy wprowadzaniu)]]></haso>
+    <listamieszka><![CDATA[Zostanie podpięta w późniejszych etapach, na tę chwilę
+poproszę o propozycje struktury np(M.0.23-M.0.24)
+tj. &lt;Oznaczenie mieszkania&gt;.&lt;Pietro&gt;.&lt;Numer mieszkania&gt;]]></listamieszka>
+  </item>
+  <item>
+    <login><![CDATA[test@wspolnota1.pl]]></login>
+    <typkonta><![CDATA[Mieszkaniec]]></typkonta>
+    <haso><![CDATA[test1]]></haso>
+    <listamieszka></listamieszka>
+  </item>
+  <item>
+    <login><![CDATA[test@wspolnota2.pl]]></login>
+    <typkonta><![CDATA[Mieszkaniec]]></typkonta>
+    <haso><![CDATA[test2]]></haso>
+    <listamieszka></listamieszka>
+  </item>
+</wpiedata>

@@ -1,0 +1,32 @@
+footer{
+    background-color: transparent !important;
+    .FooterInner{
+        max-width: 1280px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        .FooterLeft{
+            width:50%;
+            text-align: left;
+            font-size: 14px;
+            color: $GreyColor;
+        }
+        .FooterRight{
+            width:50%;
+            text-align: right;
+            font-size: 14px;
+            color: $GreyColor;
+            p{
+                display: inline;
+                a{
+                    text-decoration: none;
+                    color: $GreyColor;
+                }
+            }
+            .Spacer{
+                padding: 0 15px;
+            }
+        }
+    }
+}

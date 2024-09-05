@@ -1,0 +1,117 @@
+.Wrapper{
+    &.Zalogowany{
+        max-width: 1280px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 90px;
+        .OgloszeniaContainer{
+            .TopContainer{
+                width: 100%;
+                margin-bottom: 15px;
+                height: 50px;
+                h2{
+                    display: contents;
+                    a{
+                        font-size: 38px;
+                        font-weight: bold;
+                        color: $BlackColor;
+                        text-decoration: none;
+                    }
+                    margin: 0px;
+                    margin-bottom: 15px;
+                }
+                .ButtonsContainer{
+                    float: right;
+                    height: 50px;
+                    button{
+                        background-color: $MainColor;
+                        border-radius: 4px;
+                        width: 168px;
+                        height: 50px;
+                        text-transform: none;
+                        text-align: center;
+                        color: white;
+                        font-size: 16px;
+                        font-weight: bold;
+                        line-height: 0px;
+                        float: left;
+                        outline: 0;
+                        &:nth-of-type(2){
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+            .OgloszeniaInner{
+                background-color: white;
+                padding: 30px 40px;
+                border-radius: 4px;
+                a{
+                    text-decoration: none;
+                    .Ogloszenie{
+                        margin-top: 20px;
+                        padding-bottom: 20px;
+                        .DateContainer{
+                            p{
+                                color: $GreyColor;
+                                font-size: 14px;
+                                span{
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                        .OgloszenieContent{
+                            color: $GreyColor;
+                            font-size: 14px;
+                        }
+                    }
+                    &:first-of-type{
+                        .Ogloszenie{
+                            border-bottom: 1px solid #EDEDED;
+                        }
+                    }
+                }
+            }
+        }
+        .DataContainer{
+            margin-top: 85px;
+            .DataInner{
+                display: flex;
+                flex-wrap: wrap;
+                .DataColumn{
+                    width: 33.333%;
+                    .DataColumnInner{
+                        text-align: center;
+                        .DataIcon{
+                            width:60px;
+                            height:60px;
+                            display: block;
+                            margin: auto;
+                            margin-bottom: 20px;
+                        }
+                        h5{
+                            font-size: 28px;
+                            font-weight: bold;
+                            color: $BlackColor;
+                            margin: 0px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            color: $GreyColor;
+                            font-size: 16px;
+                            margin:0px;
+                            span{
+                                font-weight: bold;
+                            }
+                            a{
+                                color: $GreyColor;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

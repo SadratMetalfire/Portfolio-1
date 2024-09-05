@@ -1,0 +1,67 @@
+.Wrapper{
+    &.Documents{
+        max-width:1280px;
+        width:100%;
+        display: block;
+        margin: auto;
+        margin-top: 90px;
+        .AllDocuments{
+            margin-bottom: 60px;
+            .TopContainer{
+                width: 100%;
+                margin-bottom: 15px;
+                height: 50px;
+                .TypeName{
+                    display: inline;
+                    font-size: 38px;
+                    font-weight: bold;
+                    color: $BlackColor;
+                }
+            }
+            .DocumentSingle{
+                background-color: white;
+                margin-bottom: 15px;
+                border-radius: 4px;
+                a{
+                    height: 90px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-decoration: none;
+                    color: $GreyColor;
+                    .DocumentIconContainer{
+                        width: 125px;
+                        height: 90px;
+                        padding: 20px 30px;
+                        img{
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                    .DocumentContentContainer{
+                        width: 1000px;
+                        height: 90px;
+                        padding: 30px 0px;
+                        .DocumentTitle{
+                            text-decoration: none;
+                            font-weight: bold;
+                            color: $BlackColor;
+                            margin-bottom: 0px;
+                        }
+                    }
+                    .DocumentInfo{
+                        width: 155px;
+                        height: 90px;
+                        padding: 35px 0px;
+                        p{
+                            font-size: 16px;
+                            margin: 0px;
+                            span{
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

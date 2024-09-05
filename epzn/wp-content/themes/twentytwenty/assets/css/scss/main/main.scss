@@ -1,0 +1,75 @@
+*{
+    font-family: "Poppins";
+    letter-spacing: 0 !important;
+}
+
+.PoppinsBold{
+    font-weight: bold;
+}
+
+a{
+	color: $MainColor;
+}
+
+.header-inner{
+	display: none;
+}
+
+body{
+    background-color: $BackgroundColor !important;
+}
+
+.Zielone{
+	color: $MainColor;
+}
+
+a{
+	color: $MainColor;
+}
+
+h1{
+    .heading-size-1{
+        font-size: 6rem;
+    }
+}
+
+.entry-header-inner{
+	max-width: 100% !important;
+	width: 100%;
+}
+
+.entry-title{
+    display: none;
+}
+
+.powered-by-wordpress{
+	display: none;
+}
+
+.footer-credits{
+    display: none;
+}
+
+.to-the-top{
+    display: none;
+}
+
+.Autor{
+    position: relative;
+    .AutorTooltip{
+        display: none;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+        width: 250px;
+        border-radius: 4px;
+        position: absolute;
+        top: -35px;
+    }
+    &:hover{
+        .AutorTooltip{
+            display: block;
+        }
+    }
+}

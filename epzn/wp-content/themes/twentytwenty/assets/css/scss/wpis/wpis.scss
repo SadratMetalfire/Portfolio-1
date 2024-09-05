@@ -1,0 +1,225 @@
+.Wrapper{
+    &.Post{
+        max-width: 1280px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 90px;
+        .BackButton{
+            float: right;
+            background-color: $MainColor;
+            border-radius: 4px;
+            margin-top: -65px;
+            width: 168px;
+            height: 50px;
+            text-transform: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 0px;
+            outline: 0;
+        }
+        .PostInner{
+            background-color: white;
+            padding: 30px 40px;
+            border-radius: 4px;
+            margin-top: 165px;
+            .PostHeader{
+                display: flex;
+                flex-wrap: wrap;
+                height: 90px;
+                &.ZgloszenieHeader{
+                    height: 125px;
+                }
+                .PostTitle{
+                    width: 1020px;
+                    h2{
+                        font-weight: bold;
+                        font-size: 30px;
+                        color: $BlackColor;
+                        margin: 0px;
+                    }
+                    .ZgloszenieStatusContainer{
+                        padding: 20px 0px;
+                        p{
+                            font-size: 16px;
+                            font-weight: bold;
+                            margin: 0px;
+                            text-transform: uppercase;
+                            border: 1px solid;
+                            text-align: center;
+                            height: 38px;
+                            line-height: 38px;
+                            width: 135px;
+                        }
+                        #StatusSelect{
+                            text-transform: uppercase;
+                            outline: 0;
+                            font-weight: bold;
+                        }
+                        form{
+                            display: inline;
+                            #StatusValue{
+                                display: none;
+                            }
+                            input[type="submit"]{
+                                display: none;
+                                background-color: #566FFF;
+                                border-radius: 4px;
+                                margin-top: -65px;
+                                width: 168px;
+                                height: 50px;
+                                text-transform: none;
+                                color: white;
+                                font-size: 16px;
+                                font-weight: bold;
+                                line-height: 0px;
+                            }
+                        }
+                    }
+                }
+                .PostInfo{
+                    width: 180px;
+                    p{
+                        color: $GreyColor;
+                        font-size: 16px;
+                        margin: 0px;
+                        span{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            .PostContent{
+                color: $GreyColor;
+                font-size: 14px;
+                text-align: left;
+                margin-bottom: 75px;
+            }
+            .PostAttachments{
+                margin-bottom: 15px;
+                .AttachmentsHeader{
+                    font-weight: bold;
+                    font-size: 24px;
+                    color: $BlackColor; 
+                    margin: 0px;
+                    margin-bottom: 15px;
+                }
+                .Files{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .File{
+                        width: 100%;
+                        margin-bottom: 5px;
+                        a{
+                            display: flex;
+                            margin-right: 5px;
+                            text-decoration: none;
+                            color: $GreyColor;
+                            font-size: 16px;
+                            img{
+                                display: inline;
+                                width: 32px;
+                                height: 32px;
+                                margin-left: -3px;
+                            }
+                            .FileName{
+                                text-decoration: none;
+                                color: $GreyColor;
+                                font-size: 16px;
+                                font-weight: normal;
+                                display: inline;
+                                line-height: 32px;
+                                padding-left: 5px;
+                                margin: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+            .PostAnswersContainer{
+                .PostAnswers{
+                    color: $MainColor;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+            .PostComments{
+                .Comment{
+                    border-top: 1px solid #EDEDED;
+                    padding: 20px 0px;
+                    .CommentInfo{
+                        p{
+                            color: $GreyColor;
+                            font-size: 14px;
+                            margin: 0px;
+                            display: inline;
+                            margin-right: 30px;
+                            span{
+                                font-weight: bold;
+                            }
+                        }
+                        .OdpowiedzZarzadcy{
+                            color: $MainColor;
+                            font-weight: bold;
+                        }
+                    }
+                    .CommentContent{
+                        color: $GreyColor;
+                        font-size: 14px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+        .CommentFormWrapper{
+            margin-top: 30px;
+            form{
+                #CommentContent{
+                    background-color: white;
+                    padding: 35px 40px;
+                    border: none;
+                    font-size: 14px;
+                    color: $GreyColor;
+                    border-radius: 4px;
+                    &:focus{
+                        outline: none;
+                    }
+                    &::-webkit-input-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                    &::-moz-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                    &:-ms-input-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                    &:-moz-placeholder {
+                        font-size: 14px;
+                        color: $GreyColor;
+                        opacity: 0.35;
+                    }
+                }
+                input[type="submit"]{
+                    float: right;
+                    background-color: $MainColor;
+                    margin-top: 15px;
+                    font-weight: bold;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    border-radius: 4px;
+                    width: 170px;
+                    height: 50px;
+                    line-height: 0px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
